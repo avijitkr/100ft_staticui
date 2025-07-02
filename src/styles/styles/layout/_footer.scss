@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+footer {
+  background-color: $dark-grey;
+  color: $text-color;
+  padding: 20px 0;
+  text-align: center;
+
+  .footer-text {
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.5;
+    font-family: $text-font-stack;
+  }
+
+  .footer-links {
+    margin-top: 10px;
+
+    a {
+      color: $brand-color;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
